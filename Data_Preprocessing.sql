@@ -1,3 +1,4 @@
+-- Selecting the necessary Countries and Indicators for the Dashboard
 SELECT *
 from prime-cosmos-432406-m6.ESG.main_data
 where (series_code = 'EN.ATM.CO2E.PC' 
