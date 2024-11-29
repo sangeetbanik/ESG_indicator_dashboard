@@ -21,7 +21,26 @@ To Create an Interactive Dashboard for ESG Data by Country.
     - **Small Island State :** Barbados, Fiji, Maldives, Seychelles and Tuvalu.
 
 **Tools:** <br>
-- Data Preprocessing - Excel, Python and SQL.
+- [Data Preprocessing](https://github.com/sangeetbanik/ESG_indicator_dashboard/blob/main/Data_Preprocessing.sql) - Excel, Python and SQL.
 - Data visualization - [Tableau](https://public.tableau.com/app/profile/sangeet.banik/viz/ESG_Indicator/Dashboard1)
+
+  ### 3. Process
+The original dataset has 16,013 rows and 67 columns. To get it ready for analysis, a few steps were taken to clean and prepare the data.
+
+| **No.**|  **Variable**       |  **Description**                                          |
+|--------|------------------   | ----------------------------------------------------------|
+| 1      | Country Name        | Represents the country name                               |
+| 2      | Country Code        | Represents the country (e.g.,"IND" for India).            |
+| 3      | Series Code         | Represents different ESG indicators (e.g., CO2 emissions).|
+| 4      | Description         | A brief explanation of each Series Code.                  |
+| 5      | 1960                | Measurement of indicators on 1960                         |
+| 6      | 1961                | Measurement of indicators on 1961                         |
+| 7      | 1962                | Measurement of indicators on 1962                         |
+..........
+| 65      |  2019                | Measurement of indicators on 2019                       |
+| 66      |  2020                | Measurement of indicators on 2020                       |
+| 67      |  2050                | Measurement of indicators on 2050                       |
+
+
 
   
