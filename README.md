@@ -21,6 +21,7 @@ To Create an Interactive Dashboard for ESG Data by Country.
     - **Small Island State :** Barbados, Fiji, Maldives, Seychelles and Tuvalu.
 
 **Tools:** <br>
+- Data Wrangling : Excel and Python.
 - [Data Preprocessing](https://github.com/sangeetbanik/ESG_indicator_dashboard/blob/main/Data_Preprocessing.sql) - Excel, Python and SQL.
 - Data visualization - [Tableau](https://public.tableau.com/app/profile/sangeet.banik/viz/ESG_Indicator/Dashboard1)
 
@@ -40,6 +41,19 @@ The original dataset has 16,013 rows and 67 columns. To get it ready for analysi
 | 65      |  2019                | Measurement of indicators on 2019                       |
 | 66      |  2020                | Measurement of indicators on 2020                       |
 | 67      |  2050                | Measurement of indicators on 2050                       |
+
+#### Data Wrangling
+##### Data cleaning
+My initial step was to check the dataset using Excel to determine the **data type** and to  uncover any **missing values, outliers, inconsistencies, and errors** within the tables. 
+- **Missing values** : The values of indicator measurements were missing for some years. This was resolved by using **df.fillna(0,inplace= True)**, so that all the null values are replaced with 0.
+
+##### Data Preparation
+I used BigQuery to filter the dataset as per requiremment.
+
+
+
+
+
 
 
 
