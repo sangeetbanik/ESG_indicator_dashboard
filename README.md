@@ -5,6 +5,10 @@ Through this analysis project our goal is to apply ESG (Environmental, Social, a
 #### Business Task
 To Create an Interactive Dashboard for ESG Data by Country.
 
+    - Visualize and compare ESG indicators across different countries.
+    - Allow users to filter by specific ESG categories (Environment, Social, Governance).
+    - Enable users to view detailed descriptions of each Series Code.
+
 ### Prepare
 #### 🔗 Quick Links
 **Data Source:** [World Bank](https://databank.worldbank.org/source/environment-social-and-governance?preview=on) <br>
@@ -19,10 +23,11 @@ To Create an Interactive Dashboard for ESG Data by Country.
     - **High Income Leaders :** USA, Australia, Germany, Canada and Sweden.
     - **Fragile States :** Afghanistan, Sudan, Somalia, Central African Republic and Haiti.
     - **Small Island State :** Barbados, Fiji, Maldives, Seychelles and Tuvalu.
+* I have selected data from 1990 to 2020.
 
 **Tools:** <br>
 - Data Wrangling : Excel and Python.
-- [Data Preprocessing](https://github.com/sangeetbanik/ESG_indicator_dashboard/blob/main/Data_Preprocessing.sql) - Excel, Python and SQL.
+- [Data Preparation](https://github.com/sangeetbanik/ESG_indicator_dashboard/blob/main/Data_Preparation.sql) - Excel, Python and SQL.
 - Data visualization - [Tableau](https://public.tableau.com/app/profile/sangeet.banik/viz/ESG_Indicator/Dashboard1)
 
   ### 3. Process
@@ -48,7 +53,17 @@ My initial step was to check the dataset using Excel to determine the **data typ
 - **Missing values** : The values of indicator measurements were missing for some years. This was resolved by using **df.fillna(0,inplace= True)**, so that all the null values are replaced with 0.
 
 ##### Data Preparation
-I used BigQuery to filter the dataset as per requiremment.
+- Using BigQuery, I filtered the dataset as per country, indicator and year requirements.
+- Using Excel, I concatenated the indicator measurement values for each years into a single cell [i.e. yr_1990_to_2020], separated by commas.
+- Using Python, i exploded the yr_1990_to_2020 column, to get the year wise measurement values for each indicators in a long format.
+
+### Visualisation
+![Screenshot 2024-11-29 153041](https://github.com/user-attachments/assets/fd37e864-9bca-4a25-ba93-223531c32bb8)
+
+
+
+View [ESG_Indicator Dashboard](https://public.tableau.com/app/profile/sangeet.banik/viz/ESG_Indicator/Dashboard1).
+
 
 
 
