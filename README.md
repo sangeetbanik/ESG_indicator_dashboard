@@ -16,7 +16,7 @@ To Create an Interactive Dashboard for ESG Data by Country.
 #### Considerations
 * I have selected 9 indicators, which are classified into Environment,  Social and Governance as following:-
     - **Environment :** CO2 emissions (metric tons per capita)[**EN.ATM.CO2E.PC**], Electricity production from coal sources (% of total)[**EG.ELC.COAL.ZS**], and Renewable energy consumption (% of total final energy consumption)[**EG.FEC.RNEW.ZS**].
-    - **Social      :** Literacy rate, adult total (% of people ages 15 and above)[**SE.ADT.LITR.ZS**], Fertility rate, total (births per woman)[**SP.DYN.TFRT.IN**] and Fertility rate, total (births per woman)[**SP.DYN.LEOO.IN**].
+    - **Social      :** Literacy rate, adult total (% of people ages 15 and above)[**SE.ADT.LITR.ZS**], Fertility rate, total (births per woman)[**SP.DYN.TFRT.IN**] and Life expectancy at birth[**SP.DYN.LEOO.IN**].
     - **Governance  :** Control of Corruption: Estimate[**CC.EST**], Political Stability[**PV.EST**] and Absence of Violence/Terrorism: Estimate and Strength of legal rights index (0=weak to 12=strong)[**IC.LGL.CRED.XQ**].
 * I have selected 26 countries based on :-
     - **BRICS countries :** Brazil, Russia, India, China, South Africa, Iran, Egypt, Ethiopia, Indonesia, Mexico, and the United Arab Emirates.
